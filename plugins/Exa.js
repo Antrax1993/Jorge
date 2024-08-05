@@ -6,7 +6,7 @@ import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `
-🌊 *𝙻𝙸𝚂𝚃𝙰 𝙳𝙴 𝙰𝚀𝚄𝙰 𝙼𝙰𝙽*🧜🏼‍♂️
+𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩
 🔱𝙼𝙾𝙳𝙰𝙻𝙸𝙳𝙰𝙳: *𝙷𝙴𝚇𝙰𝙶𝙾𝙽𝙰𝙻*
 🐚𝙷𝙾𝚁𝙰: 
 🐳𝙲𝙾𝙻𝙾𝚁:

@@ -420,9 +420,7 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `${lenguajeGB.smsConf
 Quizás usaste mal el comando.
 usar los comandos :
 .guia
-.guia2
-
-${wm}`, fkontak, { mentions: [aa,] })
+𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩`, fkontak, { mentions: [aa,] })
 //conn.sendMessage(m.chat, { text: texto }, { quoted: fkontak })
 //conn.sendMessage(m.chat, texto, {quoted: fkontak})	
 throw false

@@ -9,7 +9,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
     await m.reply(`𝗧𝗘 𝗖𝗔𝗜𝗦𝗧𝗘 𝗗𝗘 𝗟𝗔 𝗖𝗔𝗠𝗔 𝗗𝗘 𝗖𝗛𝗜𝗤𝗨𝗜𝗧@ ..?? 👀
-𝙣𝙤 𝙨𝙚𝙖𝙨 𝙚𝙨𝙥𝙚𝙨@ 𝙣𝙞 𝙥𝙚𝙣𝙙𝙚𝙟@ 𝙉𝙊 𝙢𝙖𝙣𝙙𝙚𝙨 𝙢𝙨𝙟 😡🖕🏻`, false, {mentions: [m.sender]});
+𝙣𝙤 𝙨𝙚𝙖𝙨 𝙚𝙨𝙥𝙚𝙨@ 𝙣𝙞 𝙥𝙚𝙣𝙙𝙚𝙟@ 𝙉𝙊 𝙢𝙖𝙣𝙙𝙚𝙨 𝙢𝙨𝙟 😡🖕🏻
+𝙇𝙡𝙚𝙜𝙖 𝙖𝙦𝙪𝙞́ 𝙋𝙖𝙧𝙖 𝙫𝙚𝙧 𝙦𝙪𝙚́ 𝙦𝙪𝙞𝙚𝙧𝙚𝙨 🙄 +584123989549`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;

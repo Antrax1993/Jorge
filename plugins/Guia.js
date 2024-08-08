@@ -9,11 +9,9 @@ let texto = `𝙂𝙪𝙞𝙖 𝘿𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙢𝙖
 .𝘢𝘥𝘮𝘪𝘯𝘴 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘌𝘯𝘷𝘪𝘢 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘤𝘪𝘰́𝘯 𝘢 𝘭𝘰𝘴 𝘢𝘥𝘮𝘪𝘯𝘪𝘴𝘵𝘳𝘢𝘥𝘰𝘳𝘦𝘴)*
 .𝘵𝘰𝘥𝘰𝘴 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘦𝘵𝘪𝘲𝘶𝘦𝘵𝘢 𝘢𝘭 𝘨𝘳𝘶𝘱𝘰 𝘤𝘰𝘯 𝘮𝘦𝘯𝘤𝘪𝘰́𝘯)* 
 .𝘯𝘰𝘵𝘪 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘯𝘰𝘵𝘪𝘧𝘪𝘤𝘢 𝘢𝘭 𝘨𝘳𝘶𝘱𝘰 𝘴𝘪𝘯 𝘮𝘦𝘯𝘤𝘪𝘰́𝘯)*
-.grupo abrir (abre grupo) 
-.grupo cerrar (cierra grupo) 
-.fantasmas (muestra los inactivos) 
-.on Bienvenida (activa bienvenidas y despedidas) 
-.off Bienvenida (desactiva bienvenidas y despedidas) 
+.𝘨𝘳𝘶𝘱𝘰 𝘢𝘣𝘳𝘪𝘳/𝘤𝘦𝘳𝘳𝘢𝘳 *(𝘢𝘣𝘳𝘦 𝘨𝘳𝘶𝘱𝘰/𝘤𝘪𝘦𝘳𝘳𝘢 𝘨𝘳𝘶𝘱𝘰)* 
+.𝘧𝘢𝘯𝘵𝘢𝘴𝘮𝘢𝘴 *(𝘮𝘶𝘦𝘴𝘵𝘳𝘢 𝘭𝘰𝘴 𝘪𝘯𝘢𝘤𝘵𝘪𝘷𝘰𝘴)* 
+.𝘰𝘯/𝘰𝘧𝘧 𝘉𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘢 *(𝘢𝘤𝘵𝘪𝘷𝘢 𝘣𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥𝘢𝘴 𝘺 𝘥𝘦𝘴𝘱𝘦𝘥𝘪𝘥𝘢𝘴)*
 .editarwelcome PON FRASE @user (Bienvenidas del grupo) 
 .editarbye PON FRASE @user (Despedidas del grupo) 
 .daradmin *@tag* (da admin a alguien)

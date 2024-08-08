@@ -34,6 +34,8 @@ let menu = `╔═════════════════╗
 ╔═════════════════╗
 ┇➤ .menu/.comandos
 ╚═════════════════╝
+★ 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊 ★
+┊➺ 🎫 .igbot
 
 ★ 𝙁𝙍𝙀𝙀 𝙁𝙄𝙍𝙀 ★
 ┊➺ 🎫 .donarsala
@@ -44,7 +46,7 @@ let menu = `╔═════════════════╗
 ┊➺ 🏔️ .𝘕𝘦𝘹𝘵𝘦𝘳𝘳𝘢
 ┊➺ 🌋 .𝘈𝘭𝘱𝘦𝘴
 
-★𝑽𝑬𝑹𝑺𝑼𝑺★
+★ 𝑽𝑬𝑹𝑺𝑼𝑺 ★
 ┊➺ 📝 .cuadrilista
 ┊➺ 📝 .hexalista
 ┊➺ 🗺️ .cuadrilatero
@@ -379,7 +381,7 @@ await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() 
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}}
 
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m)$/i
 //handler.register = true
 export default handler
 

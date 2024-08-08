@@ -5,7 +5,7 @@ import fbDownloader from 'fb-downloader-scrapper'
 import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `🗒️𝑹𝒆𝒈𝒍𝒂𝒔 𝑪𝑳𝑲🗒️
+if (!args[0]) throw `🗒️𝙍𝙚𝙜𝙡𝙖𝙨 𝘾𝙡𝙠🗒️
 *𝑯𝑨𝑩𝑰𝑳𝑰𝑫𝑨𝑫 𝑨𝑪𝑻𝑰𝑽𝑨: 𝑨𝑳𝑶𝑲*
 
 *𝑯𝑨𝑩𝑰𝑳𝑰𝑫𝑨𝑫𝑬𝑺 𝑷𝑨𝑺𝑰𝑽𝑨𝑺:* 𝑴𝒐𝒄𝒐, 𝑲𝒆𝒍𝒍𝒚 𝒚 𝑴𝒂𝒙𝒊𝒎
@@ -42,9 +42,11 @@ if (!args[0]) throw `🗒️𝑹𝒆𝒈𝒍𝒂𝒔 𝑪𝑳𝑲🗒️
 𝑷𝑨𝑹𝑬𝑫 𝑮𝑳𝑶𝑶
 𝑪𝑨𝑱𝑨 𝑫𝑬 𝑹𝑬𝑷𝑨𝑹𝑨𝑪𝑰𝑶𝑵
 𝑪𝑨𝑺𝑪𝑶 𝒀 𝑪𝑯𝑨𝑳𝑬𝑪𝑶 𝑵𝑽𝑳 2
-𝑯𝑶𝑵𝑮𝑶 𝑵𝑽𝑳 3` 
+𝑯𝑶𝑵𝑮𝑶 𝑵𝑽𝑳 3  
+𝙍𝙚𝙜𝙡𝙖𝙨 𝘽𝙖́𝙨𝙞𝙘𝙖𝙨 
+𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩` 
 }
-handler.command = /^(reglasclk)$/i
+handler.command = /^(reglasclk|clk)$/i
 handler.register = true
 handler.group = true
 handler.admin = true

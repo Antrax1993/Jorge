@@ -6,7 +6,7 @@ import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `
-https://www.instagram.com/invites/contact/?i=1guo4p9rge3t8&utm_content=u61pkme
+https://www.instagram.com/sisked_1?igsh=cHJmeTM1OGs1cjZo
                 
 ` 
 }

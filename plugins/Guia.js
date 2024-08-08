@@ -3,13 +3,12 @@ let time = global.db.data.users[m.sender].lastcofre + 0 // 36000000 10 Horas //8
 if (new Date - global.db.data.users[m.sender].lastcofre < 0) throw `[❗𝐈𝐍𝐅𝐎❗] 𝚈𝙰 𝚁𝙴𝙲𝙻𝙰𝙼𝙰𝚂𝚃𝙴 𝚃𝚄 𝙲𝙾𝙵𝚁𝙴\𝚗𝚅𝚄𝙴𝙻𝚅𝙴 𝙴𝙽 *${msToTime(time - new Date())}* 𝙿𝙰𝚁𝙰 𝚅𝙾𝙻𝚅𝙴𝚁 𝙰 𝚁𝙴𝙲𝙻𝙰𝙼𝙰𝚁`
 
 let img = 'https://telegra.ph/file/03d1e7fc24e1a72c60714.jpg' 
-let texto = `Los más usados por grupos: 
+let texto = `𝙂𝙪𝙞𝙖 𝘿𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤𝙨 𝙢𝙖́𝙨 𝙪𝙨𝙖𝙙𝙤𝙨:
 
-.on audios
-.off audios
-.admins y *mensaje* (Envia información a los administradores)
-.todos y *mensaje* (etiqueta al grupo con mención) 
-.notificar y *mensaje* (notifica al grupo sin mención) 
+.𝘰𝘯/𝘰𝘧𝘧 𝘢𝘶𝘥𝘪𝘰𝘴
+.𝘢𝘥𝘮𝘪𝘯𝘴 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘌𝘯𝘷𝘪𝘢 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘤𝘪𝘰́𝘯 𝘢 𝘭𝘰𝘴 𝘢𝘥𝘮𝘪𝘯𝘪𝘴𝘵𝘳𝘢𝘥𝘰𝘳𝘦𝘴)*
+.𝘵𝘰𝘥𝘰𝘴 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘦𝘵𝘪𝘲𝘶𝘦𝘵𝘢 𝘢𝘭 𝘨𝘳𝘶𝘱𝘰 𝘤𝘰𝘯 𝘮𝘦𝘯𝘤𝘪𝘰́𝘯)* 
+.𝘯𝘰𝘵𝘪 𝘺 𝘮𝘦𝘯𝘴𝘢𝘫𝘦 *(𝘯𝘰𝘵𝘪𝘧𝘪𝘤𝘢 𝘢𝘭 𝘨𝘳𝘶𝘱𝘰 𝘴𝘪𝘯 𝘮𝘦𝘯𝘤𝘪𝘰́𝘯)*
 .grupo abrir (abre grupo) 
 .grupo cerrar (cierra grupo) 
 .fantasmas (muestra los inactivos) 

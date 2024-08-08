@@ -417,9 +417,9 @@ break
 default:
 if (!/[01]/.test(command)) return await conn.reply(m.chat, `${lenguajeGB.smsConfi10()}\n\n🌟 ${lenguajeGB.smsConfi2()} *@${toUser}*
 
-Quizás usaste mal el comando.
-usar los comandos :
-.guia
+*𝘘𝘶𝘪𝘻𝘢́𝘴 𝘶𝘴𝘢𝘴𝘵𝘦 𝘮𝘢𝘭 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰.
+𝘐𝘯𝘵𝘦𝘯𝘵𝘢 𝘤𝘰𝘯 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰:*
+*.𝘨𝘶𝘪𝘢*
 𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩`, fkontak, { mentions: [aa,] })
 //conn.sendMessage(m.chat, { text: texto }, { quoted: fkontak })
 //conn.sendMessage(m.chat, texto, {quoted: fkontak})	

@@ -28,9 +28,9 @@ lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd,DD [de] MMMM [del] YYYY│[Hora:]HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
 let menu = `╔═════════════════╗
-┇➤ 𝙅𝙤𝙨𝙨𝙞 💗 
+┇➤ 𝙃𝙊𝙇𝘼, 𝙃𝙐𝙈𝘼𝙉𝙊 
 ┇ @${m.sender.split("@")[0]}
-╚══╝ 𝙅𝙤𝙨𝙨𝙞 💗
+╚══╝ 𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏
 ╔═════════════════╗
 ┇➤ .menu/.comandos
 ╚═════════════════╝

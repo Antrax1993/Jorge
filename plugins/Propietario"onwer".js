@@ -6,8 +6,8 @@ import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `
-𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊 𝘿𝙀 𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏 Wa.me/584123989549                
-` 
+*_Creador De SISKED-BOT_* Wa.me/584123989549   
+*_Escribe para Adquirirme_* 🌟` 
 }
 handler.command = /^(owner|propietario)$/i
 handler.register = false

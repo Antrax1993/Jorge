@@ -72,7 +72,7 @@ let name = conn.getName(m.sender)
 let user = global.db.data.users[m.sender]
 if (!canLevelUp(user.level, user.exp, global.multiplier)) {
 let { min, xp, max } = xpRange(user.level, global.multiplier)
-throw `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━━━⬣
+throw `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ] ━ ⬣
 ┃ *NOMBRE | NAME*
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -81,7 +81,7 @@ throw `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━━━
 ┃ *RANGO:* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *XP:* *${user.exp - min}/${xp}*
-╰━━━〔 *🌟 ${vs}* 〕━━━━━⬣
+╰━━〔 *🌟 ${vs}* 〕━ ⬣
 
 *Te falta ${max - user.exp} de XP para subir de nivel*
 `.trim()}
@@ -90,7 +90,7 @@ let before = user.level * 1
 while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 if (before !== user.level) {
 let teks = `Bien hecho! ${conn.getName(m.sender)} Nivel: ${user.level}`
-let str = `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━━━⬣
+let str = `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ] ━ ⬣
 ┃ *NIVEL ANTERIOR:* *${before}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *NIVEL ACTUAL:* *${user.level}*
@@ -98,9 +98,9 @@ let str = `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━�
 ┃ *RANGO* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
-╰━━━〔 *🌟 ${vs}* 〕━━━━━⬣
+╰━━〔 *💲 ${vs}* 〕━ ⬣
 
-*_Cuanto más interactúes con 𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏, mayor será tu nivel!!_*
+*_Cuanto más interactúes con SISKED-BOT, mayor será tu nivel!!_*
 *_Actualiza tú rango con el comando ${usedPrefix}rol!!_*`.trim()
 try {
 const img = await levelup(teks, user.level)

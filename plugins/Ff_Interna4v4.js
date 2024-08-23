@@ -53,7 +53,10 @@ const handler = async (m, { conn, args }) => {
     const horaActual = formatTime(new Date()); // Obtener la hora actual sin modificación
 
     const message = `
-*4 𝐕𝐄𝐑𝐒𝐔𝐒 4 INTERNO*
+╭──────⚔──────╮
+           4 𝐕𝐄𝐑𝐒𝐔𝐒 4 
+              *INTERNA*
+╰──────⚔──────╯
 
 🇲🇽 𝐌𝐄𝐗𝐈𝐂𝐎 : ${formatTime(horasEnPais[0])}
 🇨🇴 𝐂𝐎𝐋𝐎𝐌𝐁𝐈𝐀 : ${formatTime(horasEnPais[1])}

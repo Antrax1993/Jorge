@@ -81,7 +81,7 @@ throw `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━━━
 ┃ *RANGO:* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *XP:* *${user.exp - min}/${xp}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 *🌟 ${vs}* 〕━━━━━⬣
 
 *Te falta ${max - user.exp} de XP para subir de nivel*
 `.trim()}
@@ -98,9 +98,9 @@ let str = `╭━━━[ *𝙉𝙄𝙑𝙀𝙇 | 𝙇𝙀𝙑𝙀𝙇* ]━━�
 ┃ *RANGO* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 *🌟 ${vs}* 〕━━━━━⬣
 
-*_Cuanto más interactúes con GataBot-MD, mayor será tu nivel!!_*
+*_Cuanto más interactúes con 𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏, mayor será tu nivel!!_*
 *_Actualiza tú rango con el comando ${usedPrefix}rol!!_*`.trim()
 try {
 const img = await levelup(teks, user.level)

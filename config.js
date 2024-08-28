@@ -129,19 +129,19 @@ global.ig = "";
 global.md = "";
 global.fb = "";
 
-global.nna = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //UPDATE 
-global.nn2 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //UPDATE 2
-global.nna2 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Help
-global.nn = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 1
-global.nnn = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 2
-global.nnnt = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 3
-global.nnntt = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 4
-global.nnnttt = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 5
-global.nnnttt1 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 6 COL
-global.nnnttt2 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 7 COL
-global.nnnttt3 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 8 COL
-global.nnnttt4 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //Grupo 9 COL
-global.nnnttt5 = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R' //A.T.M.M
+global.nna = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //UPDATE 
+global.nn2 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //UPDATE 2
+global.nna2 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Help
+global.nn = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 1
+global.nnn = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 2
+global.nnnt = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 3
+global.nnntt = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 4
+global.nnnttt = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 5
+global.nnnttt1 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 6 COL
+global.nnnttt2 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 7 COL
+global.nnnttt3 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 8 COL
+global.nnnttt4 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //Grupo 9 COL
+global.nnnttt5 = 'https://www.tiktok.com/@_moneywayyy?_t=8pGEZ1Ujqo2&_r=1' //A.T.M.M
 global.paypal = ''
 global.asistencia = 'Wa.me/593993370003' //Dudas? escríbeme...
 

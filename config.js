@@ -11,7 +11,7 @@ import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js"
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["584123989549", '𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏', true], //Elitebot
+["584123989549", '𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩', true], //Elitebot
 ["584123989549"], 
 ["584123989549"], 
 ["584123989549"], 
@@ -114,15 +114,15 @@ global.desc = ''; //agrega una descripción corta
 global.desc2 = ''; //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = ''; //agrega tú país ejemplo: 🇪🇨
 
-global.packname = "𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏";
+global.packname = "𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩";
 global.author = "@Jeffomx15";
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = "𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏";
+global.vs = "𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩";
 global.vsJB = "2.0";
 
-global.gt = "𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏";
+global.gt = "𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩";
 global.yt = "";
 global.yt2 = "";
 global.ig = "";
@@ -177,8 +177,8 @@ global.exito = eg;
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏 ";
-global.igfg = "𝙎𝙄𝙎𝙆𝙀𝘿-𝘽𝙊𝙏";
+global.wm = "𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩";
+global.igfg = "𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩";
 global.wait = "*🚀 P R O C E S A N D O*";
 global.waitt = "*🚀 P R O C E S A N D O*";
 global.waittt = "*🚀 P R O C E S A N D O*";

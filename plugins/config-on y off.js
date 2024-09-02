@@ -420,12 +420,12 @@ if (!/[01]/.test(command)) return await conn.reply(m.chat, `${lenguajeGB.smsConf
 𝘘𝘶𝘪𝘻𝘢́𝘴 𝘶𝘴𝘢𝘴𝘵𝘦 𝘮𝘢𝘭 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰.
 𝘐𝘯𝘵𝘦𝘯𝘵𝘢 𝘤𝘰𝘯 𝘦𝘭 𝘤𝘰𝘮𝘢𝘯𝘥𝘰:
 *.𝘨𝘶𝘪𝘢*
-𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩`, fkontak, { mentions: [aa,] })
+𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩`, fkontak, { mentions: [aa,] })
 //conn.sendMessage(m.chat, { text: texto }, { quoted: fkontak })
 //conn.sendMessage(m.chat, texto, {quoted: fkontak})	
 throw false
 }
-await conn.reply(m.chat, `𝙎𝙞𝙨𝙠𝙚𝙙-𝘽𝙤𝙩'
+await conn.reply(m.chat, `𝙈𝙖𝙧𝙞𝙤-𝘽𝙤𝙩'
 ⚡ ${lenguajeGB['smsMens1']()} *|* ${type} 
 ⚡ ${lenguajeGB['smsMens2']()} *|* ${isEnable ? lenguajeGB.smsEncender() : lenguajeGB.smsApagar()} 
 ⚡ ${lenguajeGB['smsMens3']()} *|* ${isAll ? lenguajeGB.smsMens4() : isUser ? '' : lenguajeGB.smsMens5()}`, fkontak, m)}	
